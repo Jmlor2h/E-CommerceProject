@@ -1,0 +1,76 @@
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    margin-top: 5vh;
+    font-size: 3vw;
+    background-image: url("images/heroimage.webp");
+    background-size: cover;
+    color: #ffffff;
+    width: 80%;
+}
+
+.aboutus {
+    font-size: 2vw;
+}
+#TOPPICKS {
+    font-size: 1.5vw;
+    margin-top: 5vh;
+}
+
+.slideimage {
+    width: 25vw;
+    height: 30vw;
+}
+
+.buttoncontainer .slidebutton {
+    display: inline-block;
+    height: 1vw;
+    width: 1vw;
+    border-radius: .5vw;
+    background-color: black;
+    cursor: pointer;
+}
+
+.slidebutton:hover {
+    background-color: gray;
+    transition: .7s;
+}
+
+.shopnow {
+    cursor: pointer;
+    padding: .25vw .25vw .25vw .25vw;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 1vw;
+    border: 1px solid black;
+    font-size: 1.25vw;
+}
+
+.shopnow:hover {
+    background-color: gray;
+    color: silver;
+    transition: .7s;
+}
+
+.featuredimg {
+    margin-top: -15vh;
+}
+
+.FEATUREDLINE {
+    font-size: 3vw;
+}
+
+.featuredimg {
+    width: 100vw;
+}
+
+.featuredimg img {
+    width: 100%;
+}
