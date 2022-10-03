@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200;400&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -10,17 +10,17 @@ html {
 height: 100%;
 overflow-x: hidden;
 background-color: #EEEEEE;
-font-family: 'Oswald', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
 }
 
 .navbar {
-    background-color: #F7F7F7;
+    background-color: rgb(207, 201, 201);
     width: 100%;
     overflow: hidden;
 }
 
 .navbar .logo {
-    font-size: 1vw;
+    font-size: 1.4vw;
     text-align: center;
     padding: .5vw .8vw;
     color: black;
@@ -49,8 +49,8 @@ font-family: 'Oswald', sans-serif;
     transition: .6s;
 }
 .navbar .logo:hover {
-    background-color: teal;
-    color: silver;
+    color: white;
+    background-color: rgb(207, 201, 201);
 }
 .navbar .icon {
     display: none;

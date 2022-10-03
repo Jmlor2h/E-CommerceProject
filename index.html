@@ -1,69 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="nav.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="nav.css" />
     <script src="script.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="index.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="index.css" />
     <title>RAGING APE</title>
-</head>
-<body onload="startUp()">
+  </head>
+  <body onload="startUp()">
     <header>
-        <nav>
-            <div class="navbar" id="topnavbar">
-                <a class="logo" href="index.html"><strong>"RAGING-APE"</strong></a>
-                <a href="index.html" class="active">Home</a>
-                <a href="shop.html">Shop</a>
-                <a href="contact.html">Contact</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                  <i class="fa fa-bars"></i>
-                </a>
-              </div>
+      <nav>
+        <div class="navbar" id="topnavbar">
+          <a class="logo" href="index.html"><strong>"RAGING-APE"</strong></a>
+          <a href="index.html" class="active">Home</a>
+          <a href="products.html">Shop</a>
+          <a href="contact.html">Contact</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
       </nav>
     </header>
     <main>
-      <section class="description">
-        <p><strong>"RAGING-APE"</strong></p>
-        <br>
-        <p><strong>by "APES" for "HUMANS" </strong></p>
-      </section>
-      <section id="TOPPICKS">
-      <div id="slidetitle"><b>T0P P!CKS!</b></div>
-      <div class="slideshowcontainer">
-        <div class="imagecontainer">
-          <img class='slideimage' id="img1">
+      <section>
+        <div class="description">
+          <img src="images/ecommercebanner.jpeg">
         </div>
-      </div>
-      <div class="buttoncontainer">
-        <a class="slidebutton" onclick="slideShow(0)"></a>
-        <a class="slidebutton" onclick="slideShow(1)"></a>
-        <a class="slidebutton" onclick="slideShow(2)"></a>
-      </div>
-      <div><a href="products.html" class="shopnow">SHOP NOW</a></div>
-    </section>
-    <br><br>
-    <section>
-      <div class="aboutus">ABOUT US!</div>
-      <div class="aboutus"><p><strong>Founded in 2022 by Jacob Mlo<br>We strive to provide high quality clothing at an affordable price<br>10% of our profits are put towards saving endangered apes</strong></p></div>
-    </section><br><br><br>
-    <section>
-      <div class="FEATUREDLINE">FEATURED <br>"SINGE ENRAGÉ"</div>
-      <div class="featuredimg"><img src="images/featured.png"><br><a href="products.html" class="shopnow" id="featuredbutton">CHECK IT OUT!</a></div>
-    </section>
+        <p class="desc"><strong>"RAGING-APE"</strong><br><strong>by "APES" for "HUMANS" </strong></p>
+      </section>
+      <div id="slidetitle"><b>BEST SELLERS</b></div>
+      <section id="TOPPICKS">
+        <div>
+          <p class="designshop">
+            SHOP<br />
+            NOW
+          </p>
+        </div>
+        <div class="slideshowcontainer">
+          <div class="imagecontainer">
+            <img class="slideimage" id="img1" />
+          </div>
+        </div>
+        <div>
+          <p class="designshop">SHOP<br />NOW</p>
+        </div>
+      </section>
+      <section class="xcolor1">
+        <div class="buttoncontainer">
+          <a class="slidebutton" onclick="slideShow(0)"></a>
+          <a class="slidebutton" onclick="slideShow(1)"></a>
+          <a class="slidebutton" onclick="slideShow(2)"></a>
+        </div><br>
+        <div><a href="products.html" class="shopnow">SHOP NOW</a></div>
+      </section>
+      <br /><br />
+      <section class="featuredbg">
+        <div class="FEATUREDLINE">FEATURED <br />"SINGE ENRAGÉ"</div>
+        <div class="featuredimg"><img src="images/banner.png" /></div><br>
+        <div>
+          <a href="products.html" class="shopnow" id="featuredbutton"
+            >CHECK IT OUT</a
+          >
+        </div>
+      </section><br><br>
+      <section class="aboutbg">
+        <div class="aboutus1">ABOUT US!</div>
+        <div class="aboutus">
+          <p>
+            <strong
+              >Founded in 2022 by Jacob Mlo<br />We strive to provide high
+              quality clothing at an affordable price<br />10% of our profits
+              are put towards saving endangered apes</strong
+            >
+          </p>
+        </div>
+      </section>
+      <br><br>
+      <section class="socialbg1">KEEP UP</section>
+      <section class="socialbg">
+        <div class="socialimg">
+          <a href="http://www.twitter.com"
+            ><img src="footerimages/twitter.svg" alt="twitter"
+          /></a>
+        </div>
+        <div class="socialimg">
+          <a href="http://www.facebook.com"
+            ><img src="footerimages/fbook.png" alt="fbook"
+          /></a>
+        </div>
+        <div class="socialimg">
+          <a href="http://www.instagram.com"
+            ><img src="footerimages/instagram.png" alt="the gram"
+          /></a>
+        </div>
+        
+      </section>
+      <br /><br />
     </main>
     <div class="grow"></div>
     <footer>
-      <div class="footerimg">
-      <a href="http://www.twitter.com"><img src="footerimages/twitter.svg" alt="twitter"></a></div>
-      <div class="footerimg"><a href="http://www.linkedin.com"><img src="footerimages/linkedin.svg" alt="twitter"></a></div>
-      <div class="footerimg"><a href="http://www.facebook.com"><img src="footerimages/fbook.png" alt="fbook"></a></div>
-      <div class="footerimg"><a href="http://www.instagram.com"><img src="footerimages/instagram.png" alt="the gram"></a></div>
-      <div class="footerimg">&copy;"RAGING-APE" 2022</div>
+     <section class="footerhelp">
+      <div class="footertitle">HELP</div>
+      <div><a href="contact.html">Privacy & Policy</a></div>
+      <div><a href="contact.html">Legal</a></div>
+      <div><a href="contact.html">Contact</a></div>
+     </section>
+     <section class="footershop">
+      <div class="footertitle">SHOP</div>
+      <div><a href="products.html">MEN</a></div>
+      <div><a href="products.html">WOMEN</a></div>
+      <div><a href="products.html">UNISEX</a></div>
+      <div><a href="products.html">KIDS</a></div>
+    </section>
+     <section class="footerxtras">
+      <div class="footertitle">SUBSCRIBE</div>
+      <div>Subscribe to our weekly newsletter for deals and more!</div>
+      <div><a href="contact.html">Learn More &#8594</a></div>
+     </section>
     </footer>
-    
-</body>
+    <footer class="footer2">
+      <div>&copy;"RAGING-APE"<br>WHERE QUALITY MEETS AFFORDABILITY</div>
+    </footer>
+  </body>
 </html>

@@ -1,20 +1,44 @@
 
 .grow {
-    height: 30vh;
+    height: 10vh;
   }
-.footerimg {
-  width: 2vw;
-  font-size: 1.5vw;
-}
-footer img{
-  width: 100%;
-}
 footer {
-  margin-top: 5vh;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   padding: .5vw .3vw;
   background-color: #F7F7F7;
   white-space: nowrap;
+  font-size: 1vw;
+}
+
+.footertitle {
+  font-size: 1.8vw;
+  color: red;
+}
+
+.footer2{
+  text-align: center;
+}
+
+.footerhelp a { 
+  color: black;
+}
+.footershop a {
+  color: black;
+
+}
+
+.footerxtras a {
+  color: black;
+}
+.footerhelp a:hover { 
+  color: silver;
+}
+.footershop a:hover {
+  color: silver;
+
+}
+.footerxtras a:hover {
+  color: silver;
 }

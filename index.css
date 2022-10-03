@@ -6,26 +6,98 @@ main {
     align-items: center;
 }
 
-.description {
+
+.description img {
+  width: 85%;
+  border-radius: 10px;
+  justify-self: center;
     margin-top: 5vh;
-    font-size: 3vw;
-    background-image: url("images/heroimage.webp");
-    background-size: cover;
-    color: #ffffff;
+    color: gray;
     width: 80%;
+    box-shadow: 0 0 2vw 0 gray;
+    border-radius: 10px;
+
+}
+.desc {
+  position: relative;
+  font-size: 3.5vw;
+  color: gray;
+  margin-top: -15vw;
 }
 
 .aboutus {
     font-size: 2vw;
 }
+.aboutus1 {
+  font-size: 3vw;
+}
+.aboutbg {
+  padding: 2vw 2vw 2vw 2vw;
+  border-left: 10px solid black;
+  border-top: 10px solid black;
+}
+.socialbg1 {
+  font-size: 2.5vw;
+  padding: 1vw 1vw 1vw 1vw;
+  border-right: 10px solid black;
+  width: 40%;
+}
+.socialbg {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  justify-content: space-evenly;
+  white-space: nowrap;
+  padding: 2vw 2vw 2vw 2vw;
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+}
+
+.socialimg {
+  width: 3vw;
+}
+.socialbg img {
+  width: 100%;
+}
 #TOPPICKS {
-    font-size: 1.5vw;
-    margin-top: 5vh;
+    font-size: 2.3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+    padding: 2vw 2vw 2vw 2vw;
+    border-right: 10px solid black;
+}
+
+.xcolor1 {
+  padding: 2vw 2vw 2vw 2vw;
+  width: 70%;
+  border-right: 10px black solid;
+}
+
+#slidetitle {
+    font-size: 3vw;
+    margin-top: 10vw;
+    width: 70%;
+    border-right: 10px solid black;
+    border-top: 10px solid black;
+    padding: 2vw 2vw 2vw 2vw;
 }
 
 .slideimage {
-    width: 25vw;
-    height: 30vw;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 1vw 0 gray;
+}
+.slideshowcontainer {
+  width: 20vw;
+  height: 23vw;
+}
+
+.imagecontainer {
+  width: 20vw;
+  height: 23vw;
 }
 
 .buttoncontainer .slidebutton {
@@ -44,13 +116,13 @@ main {
 
 .shopnow {
     cursor: pointer;
-    padding: .25vw .25vw .25vw .25vw;
+    padding: .5vw .8vw;
+    border: solid 1px #393E46;
+    color: #393E46;
+    border-radius: 2vw;
+    margin-top: 2vh;
     text-decoration: none;
-    background-color: white;
-    color: black;
-    border-radius: 1vw;
-    border: 1px solid black;
-    font-size: 1.25vw;
+    font-size: 1.5vw;
 }
 
 .shopnow:hover {
@@ -59,18 +131,130 @@ main {
     transition: .7s;
 }
 
-.featuredimg {
-    margin-top: -15vh;
-}
 
 .FEATUREDLINE {
     font-size: 3vw;
 }
 
 .featuredimg {
-    width: 100vw;
+    width: 60vw;
 }
 
 .featuredimg img {
-    width: 100%;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 0 gray;
+}
+
+.featuredimg img:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.featuredbg {
+  padding: 2vw 2vw 2vw 2vw;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border-bottom: 10px solid black;
+  border-left: 10px solid black;
+}
+
+
+#featuredbutton {
+    padding: .5vw .8vw;
+    border: solid 1px #393E46;
+    color: #393E46;
+    border-radius: 2vw;
+    margin-top: 2vw;
+    text-decoration: none;
+    width: 60vw;
+}
+
+.designshop {
+    margin-top: 15vh;
+    font-size: 4vw;
+    animation: infinite;
+    -webkit-animation: colorchange 1s infinite alternate;
+    border: .4vw solid black;
+    padding: 1vw 1vw;
+    background-color: aliceblue;
+    border-radius: 1.5vw;
+}
+
+@keyframes colorchange {
+    0% {
+      color: blue;
+    }
+    10% {
+      color: gray;
+    }
+    20% {
+      color: teal;
+    }
+    30% {
+      color: silver;
+    }
+    40% {
+      color: turquoise;
+    }
+    50% {
+      color: plum;
+    }
+    60% {
+      color: pink;
+    }
+    70% {
+      color: powderblue;
+    }
+    80% {
+      color: #f1c40f;
+    }
+    90% {
+      color: #2980b9;
+    }
+    100% {
+      color: oldlace;
+    }
+  }
+
+@media screen and (max-width: 750px) {
+    .featuredimg {
+        margin-top: .5vh;
+
+    }
+    .designshop {
+        margin-top: 5vh;
+    }
+
+    #slidetitle {
+      border-right: 5px solid black;
+      border-top: 5px solid black;
+    }
+    .featuredbg {
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    }
+
+    .xcolor1 {
+      border-right: 5px solid black;
+    }
+
+    #TOPPICKS {
+      border-right: 5px solid black;
+    }
+
+    .aboutbg {
+      border-left: 5px solid black;
+      border-top: 5px solid black;
+    }
+
+    .socialbg {
+      border-right: 5px solid black;
+      border-bottom: 5px solid black;
+    }
+    .socialbg1 {
+      border-right: 5px solid black;
+    }
 }
