@@ -1,0 +1,117 @@
+.container {
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
+
+.title {
+    text-align:center;
+    font-size: 3vw;
+}
+
+/* .wrapper {
+    box-shadow: 0 0 20px 0 rbga(72, 94, 116, 0.7);
+} */
+.wrapper {
+    margin-top: 3vw;
+    box-shadow: 0 0 20px 0 gray;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3vw;
+}
+
+.wrapper > * {
+    padding: 1em;
+}
+
+.company-info {
+    text-align: center;
+    color: black;
+    width: 40%;
+    position: relative;
+    align-content: center;
+    background-color: whitesmoke;
+}
+
+.company-info img{
+    width: 100%;
+}
+
+.company-info h2 {
+    text-align: center;
+    font-size: 1.8vw;
+}
+
+.contact {
+    background-color: lightgray;
+    width: 60%;
+}
+
+.contact h3{
+    text-align: center;
+    font-size: 2.3vw;
+}
+
+/* Form Styles */
+
+.contact form {
+    display:flex;
+    flex-direction: column;
+    font-size: 1.5vw;
+}
+
+.contact form label {
+    display:block;
+}
+
+.contact form p {
+    margin: 0;
+}
+
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #c9e6ff;
+}
+
+.contact form button {
+    background: rgb(204, 109, 109);
+    font-weight: bolder;
+    width: 100%;
+    padding: 8px 8px 8px 8px;
+    font-size: 8px;
+}
+
+.contact form button:hover {
+    background: black;
+    color: white;
+    outline: 0;
+    transition: 2s;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .company-info {
+        width: 100%;
+        height: 40%;
+    }
+    
+    .contact {
+        width: 100%;
+        height: 60%;
+    }
+    .contact form button {
+        padding: 8px 8px 8px 8px;
+    }
+
+    .contact form input, .contact form textarea {
+        padding: .5rem;
+    }
+}

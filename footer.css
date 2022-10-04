@@ -1,6 +1,6 @@
 
 .grow {
-    height: 10vh;
+    height: 13vh;
   }
 footer {
   display: flex;
@@ -41,4 +41,16 @@ footer {
 }
 .footerxtras a:hover {
   color: silver;
+}
+
+
+@media screen and (max-width:600px) {
+  footer {
+    font-size: 1.5vh;
+  }
+
+  .footertitle {
+    font-size: 2vh;
+  }
+  
 }

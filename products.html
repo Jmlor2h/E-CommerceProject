@@ -7,16 +7,19 @@
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="products.css">
-    <script src="script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>"RAGING APE"</title>
 </head>
-<body>
+<body onload="loadJSON()">
     <header>
         <nav>
             <div class="navbar" id="topnavbar">
                 <a class="logo" href="index.html"><strong>"RAGING-APE"</strong></a>
-                <a href="index.html" class="active">Home</a>
-                <a href="products.html">Shop</a>
+                <a href="index.html">Home</a>
+                <a href="products.html" class="active">Shop</a>
                 <a href="contact.html">Contact</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                   <i class="fa fa-bars"></i>
@@ -24,16 +27,65 @@
               </div>
       </nav>
     </header>
+    <section class="products">
+<div class="container">
+  <h1>Our Products</h1>
+  <div class="product-list">
+    <!-- Start of single item-->
+    <!-- <div class="product-item">
+      <div class="product-img">
+        <img src="productimages/aquahoodie.png" alt="Light blue hoodie">
+        <button type = "button" class="add-to-cart-btn">
+          <i class= "fa fa-shopping-cart"></i> Add To Cart
+        </button>
+      </div>
+      <div class="product-content">
+        <h3 class="product-name"> RA Light Blue Hoodie</h3>
+        <span class="product-category">Hoodie</span>
+        <p class="product-price">$49.99</p>
+      </div>
+    </div> -->
+    <!-- End of single item-->
+  </div>
+</div>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
 
     <div class="grow"></div>
     <footer>
-      <div class="footerimg">
-      <a href="http://www.twitter.com"><img src="footerimages/twitter.svg" alt="twitter"></a></div>
-      <div class="footerimg"><a href="http://www.linkedin.com"><img src="footerimages/linkedin.svg" alt="twitter"></a></div>
-      <div class="footerimg"><a href="http://www.facebook.com"><img src="footerimages/fbook.png" alt="fbook"></a></div>
-      <div class="footerimg"><a href="http://www.instagram.com"><img src="footerimages/instagram.png" alt="the gram"></a></div>
-      <div class="footerimg">&copy;"RAGING-APE" 2022</div>
-    </footer>
+      <section class="footerhelp">
+       <div class="footertitle">HELP</div>
+       <div><a href="contact.html">Privacy & Policy</a></div>
+       <div><a href="contact.html">Legal</a></div>
+       <div><a href="contact.html">Contact</a></div>
+      </section>
+      <section class="footershop">
+       <div class="footertitle">SHOP</div>
+       <div><a href="products.html">MEN</a></div>
+       <div><a href="products.html">WOMEN</a></div>
+       <div><a href="products.html">UNISEX</a></div>
+       <div><a href="products.html">KIDS</a></div>
+     </section>
+      <section class="footerxtras">
+       <div class="footertitle">SUBSCRIBE</div>
+       <div>Subscribe to our weekly newsletter for deals and more!</div>
+       <div><a href="contact.html">Learn More &#8594</a></div>
+      </section>
+     </footer>
+     <footer class="footer2">
+       <div>&copy;"RAGING-APE"<br>WHERE QUALITY MEETS AFFORDABILITY</div>
+     </footer>
     
+     <script src="products.js"></script>
 </body>
 </html>
