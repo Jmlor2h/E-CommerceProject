@@ -1,134 +1,155 @@
-  {
 
+{
   "product": [
     {
-        "name" : "LTD EDITION SINGE ENRAGÉ",
-        "price" : "59.99",
-        "imgSrc" : "productimages/singenrage.png",
-        "category" : "LIMITED"
-    },
-     {
-        "name" : "OG BLUE HOODIE",
-        "price" : "49.99",
-        "imgSrc" : "productimages/bluehoodie.png",
-        "category" : "HOODIE"
+      "name": "LTD EDITION SINGE ENRAGÉ",
+      "price": "59.99",
+      "imgSrc": "productimages/singenrage.png",
+      "category": "LIMITED"
     },
     {
-        "name" : "OG LIGHTBLUE HOODIE",
-        "price" : "49.99",
-        "imgSrc" : "productimages/aquahoodie.png",
-        "category" : "HOODIE"
+      "name": "OG BLUE HOODIE",
+      "price": "49.99",
+      "imgSrc": "productimages/bluehoodie.png",
+      "category": "HOODIE"
     },
     {
-        "name" : "OG BLACK HOODIE",
-        "price" : "49.99",
-        "imgSrc" : "productimages/blackhoodie.png",
-        "category" : "HOODIE"
+      "name": "OG LIGHTBLUE HOODIE",
+      "price": "49.99",
+      "imgSrc": "productimages/aquahoodie.png",
+      "category": "HOODIE"
     },
     {
-        "name" : "OG RED HOODIE",
-        "price" : "49.99",
-        "imgSrc" : "productimages/redhoodie.png",
-        "category" : "HOODIE"
+      "name": "OG BLACK HOODIE",
+      "price": "49.99",
+      "imgSrc": "productimages/blackhoodie.png",
+      "category": "HOODIE"
     },
     {
-        "name" : "OG WHITE HOODIE",
-        "price" : "49.99",
-        "imgSrc" : "productimages/whitehoodie.png",
-        "category" : "HOODIE"
+      "name": "OG RED HOODIE",
+      "price": "49.99",
+      "imgSrc": "productimages/redhoodie.png",
+      "category": "HOODIE"
     },
     {
-        "name" : "LTD EDITION BLACK TEE",
-        "price" : "29.99",
-        "imgSrc" : "productimages/blacklogotee.png",
-        "category" : "LIMITED"
+      "name": "OG WHITE HOODIE",
+      "price": "49.99",
+      "imgSrc": "productimages/whitehoodie.png",
+      "category": "HOODIE"
     },
     {
-        "name" : "NEW GEN BLACK TEE",
-        "price" : "25.99",
-        "imgSrc" : "productimages/blacktee.png",
-        "category" : "T-SHIRT"
+      "name": "LTD EDITION BLACK TEE",
+      "price": "29.99",
+      "imgSrc": "productimages/blacklogotee.png",
+      "category": "LIMITED"
     },
     {
-        "name" : "OG BLUE TEE",
-        "price" : "25.99",
-        "imgSrc" : "productimages/bluetee.png",
-        "category" : "T-SHIRT"
+      "name": "NEW GEN BLACK TEE",
+      "price": "25.99",
+      "imgSrc": "productimages/blacktee.png",
+      "category": "T-SHIRT"
     },
     {
-        "name" : "LTD EDITION NAVY TEE",
-        "price" : "29.99",
-        "imgSrc" : "productimages/navylogotee.png",
-        "category" : "LIMITED"
+      "name": "OG BLUE TEE",
+      "price": "25.99",
+      "imgSrc": "productimages/bluetee.png",
+      "category": "T-SHIRT"
     },
     {
-        "name" : "LTD EDITION WHITE TEE",
-        "price" : "29.99",
-        "imgSrc" : "productimages/whitelogotee.png",
-        "category" : "LIMITED"
+      "name": "LTD EDITION NAVY TEE",
+      "price": "29.99",
+      "imgSrc": "productimages/navylogotee.png",
+      "category": "LIMITED"
     },
     {
-        "name" : "NEW GEN WHITE TEE",
-        "price" : "25.99",
-        "imgSrc" : "productimages/whitetee.png",
-        "category" : "T-SHIRT"
+      "name": "LTD EDITION WHITE TEE",
+      "price": "29.99",
+      "imgSrc": "productimages/whitelogotee.png",
+      "category": "LIMITED"
     },
     {
-        "name" : "OG RED TEE",
-        "price" : "25.99",
-        "imgSrc" : "productimages/redtee.png",
-        "category" : "T-SHIRT"
+      "name": "NEW GEN WHITE TEE",
+      "price": "25.99",
+      "imgSrc": "productimages/whitetee.png",
+      "category": "T-SHIRT"
     },
     {
-        "name" : "LTD EDITION GRAY SHORTS",
-        "price" : "29.99",
-        "imgSrc" : "productimages/grayshortslimited.png",
-        "category" : "LIMITED"
+      "name": "OG RED TEE",
+      "price": "25.99",
+      "imgSrc": "productimages/redtee.png",
+      "category": "T-SHIRT"
     },
     {
-        "name" : "LTD EDITION BLACK SHORTS",
-        "price" : "29.99",
-        "imgSrc" : "productimages/blackshortslimited.png",
-        "category" : "LIMITED"
+      "name": "LTD EDITION GRAY SHORTS",
+      "price": "29.99",
+      "imgSrc": "productimages/grayshortslimited.png",
+      "category": "LIMITED"
     },
     {
-        "name" : "OG GRAY SHORTS",
-        "price" : "25.99",
-        "imgSrc" : "productimages/grayshorts.png",
-        "category" : "SHORTS"
+      "name": "LTD EDITION BLACK SHORTS",
+      "price": "29.99",
+      "imgSrc": "productimages/blackshortslimited.png",
+      "category": "LIMITED"
     },
     {
-        "name" : "NEW GEN BLACK SHORTS",
-        "price" : "25.99",
-        "imgSrc" : "productimages/redtee.png",
-        "category" : "SHORTS"
+      "name": "OG GRAY SHORTS",
+      "price": "25.99",
+      "imgSrc": "productimages/grayshorts.png",
+      "category": "SHORTS"
     },
     {
-        "name" : "OG GRAY SWEATS",
-        "price" : "33.99",
-        "imgSrc" : "productimages/graysweats.png",
-        "category" : "SWEATPANTS"
+      "name": "NEW GEN BLACK SHORTS",
+      "price": "25.99",
+      "imgSrc": "productimages/blackshorts.png",
+      "category": "SHORTS"
     },
     {
-        "name" : "OG BLACK SWEATS",
-        "price" : "33.99",
-        "imgSrc" : "productimages/blacksweatschamp.png",
-        "category" : "SWEATPANTS"
+      "name": "OG GRAY SWEATS",
+      "price": "33.99",
+      "imgSrc": "productimages/graysweats.png",
+      "category": "SWEATPANTS"
+    },
+    {
+      "name": "OG BLACK SWEATS",
+      "price": "33.99",
+      "imgSrc": "productimages/blacksweatschamp.png",
+      "category": "SWEATPANTS"
+    },
+    {
+      "name": "OG DARK-GRAY SWEATS",
+      "price": "33.99",
+      "imgSrc": "productimages/darkgraysweats.png",
+      "category": "SWEATPANTS"
+    },
+    {
+      "name": "OG NAVY SWEATS",
+      "price": "33.99",
+      "imgSrc": "productimages/navysweats.png",
+      "category": "SWEATPANTS"
+    },
+    {
+      "name": "WOMENS GRAY SHORTS",
+      "price": "25.99",
+      "imgSrc": "productimages/womenshorts1.png",
+      "category": "SHORTS"
+    },
+    {
+      "name": "WOMENS NAVY SHORTS",
+      "price": "25.99",
+      "imgSrc": "productimages/womenshorts2.png",
+      "category": "SHORTS"
+    },
+    {
+      "name": "WOMENS TURQUOISE LONG-SLEEVE",
+      "price": "33.99",
+      "imgSrc": "productimages/womenshirt.png",
+      "category": "LONG-SLEEVE"
+    },
+    {
+      "name": "WOMENS GRAY LONG-SLEEVE ",
+      "price": "33.99",
+      "imgSrc": "productimages/womenshirt2.png",
+      "category": "LONG-SLEEVE"
     }
-    ,    {
-        "name" : "OG DARK-GRAY SWEATS",
-        "price" : "33.99",
-        "imgSrc" : "productimages/darkgraysweats.png",
-        "category" : "SWEATPANTS"
-    }
-    ,    {
-        "name" : "OG NAVY SWEATS",
-        "price" : "33.99",
-        "imgSrc" : "productimages/navysweats.png",
-        "category" : "SWEATPANTS"
-    }
-
-
-
-   ]
+  ]
 }

@@ -10,27 +10,29 @@ function myFunction() {
 
 let images = [
   {
-      imageUrl:`images/ecommerceimg3.png`
+      imageUrl:`productimages/bluehoodie.png`
   },
   {
-      imageUrl:`images/ecommerceimg1.png`
+      imageUrl:`productimages/blacktee.png`
   },
   {
-      imageUrl:`images/ecommerceimg2.webp`
+      imageUrl:`productimages/redhoodie.png`
   }
 ]
-let showImage = 0;
+let showImage = 0; // starts slideshow with array index of 0
+// allows you to select which image you want (onclick function in html)
 function slideShow(imageIndex){
   document.getElementById('img1').src=images[imageIndex].imageUrl;
 }
+// starts up slideshow,
 function startUp(){
   document.getElementById('img1').src=images[showImage].imageUrl;
 }
-
+// interval for slideshow, images change every 5 seconds.
 setInterval(() => {
 startUp();
 showImage++;
-if (showImage == images.length){
+if (showImage == images.length){ // showImage starts with 0 and increments by 1, once it passes 2 it resets to 0, 2 is the last number of the array
   showImage = 0
 };
 }, 5000)

@@ -72,6 +72,15 @@
     opacity: 0.8;
 }
 
+.searchlabel {
+    font-size: 1.2vw;
+}
+
+#searchbar {
+    padding: .5rem 0;
+    border-radius: 10px;
+}
+
 @media screen and (min-width: 680px){
     .product-list{
         display: grid;
@@ -99,12 +108,15 @@
 
 @media screen and (max-width: 700px) {
     .product-price {
-        font-size: 2vh;
+        font-size: 15px;
     }
     .product-name {
-        font-size: 2.2vh;
+        font-size: 15px;
     }
     .product-category {
-        font-size: 2vh;
+        font-size: 15px;
+    }
+    .searchlabel {
+        font-size: 12px;
     }
 }

@@ -10,11 +10,14 @@ main {
 .description img {
   border-radius: 10px;
   justify-self: center;
-  margin-top: 5vh;
-  width: 100%;
+  width: 95%;
   box-shadow: 0 0 2vw 0 gray;
   border-radius: 10px;
-
+  opacity: 80%;
+}
+.description {
+  margin-top: 5vh;
+  padding: 1rem 0;
 }
 .desc {
   position: relative;
@@ -105,6 +108,7 @@ main {
     border-radius: .5vw;
     background-color: black;
     cursor: pointer;
+    margin: 2px;
 }
 
 .slidebutton:hover {
@@ -140,13 +144,8 @@ main {
 
 .featuredimg img {
     width: 80%;
-    border-radius: 15px;
-    box-shadow: 0 0 20px 0 gray;
-}
-
-.featuredimg img:hover {
-  transform: scale(1.05);
-  transition: 1s;
+    box-shadow: 0 0 10px 0 gray;
+    border-radius: 10px;
 }
 
 .featuredbg {
@@ -170,52 +169,6 @@ main {
     width: 60vw;
 }
 
-.designshop {
-    margin-top: 15vh;
-    font-size: 4vw;
-    animation: infinite;
-    -webkit-animation: colorchange 1s infinite alternate;
-    border: .4vw solid black;
-    padding: 1vw 1vw;
-    background-color: aliceblue;
-    border-radius: 1.5vw;
-}
-
-@keyframes colorchange {
-    0% {
-      color: blue;
-    }
-    10% {
-      color: gray;
-    }
-    20% {
-      color: teal;
-    }
-    30% {
-      color: silver;
-    }
-    40% {
-      color: turquoise;
-    }
-    50% {
-      color: plum;
-    }
-    60% {
-      color: pink;
-    }
-    70% {
-      color: powderblue;
-    }
-    80% {
-      color: #f1c40f;
-    }
-    90% {
-      color: #2980b9;
-    }
-    100% {
-      color: oldlace;
-    }
-  }
 
 @media screen and (max-width: 750px) {
     .featuredimg {

@@ -13,7 +13,7 @@
     />
     <title>"RAGING APE"</title>
 </head>
-<body onload="loadJSON()">
+<body onload="loadJSON()"> <!--Loads Json/Products informaton & data-->
     <header>
         <nav>
             <div class="navbar" id="topnavbar">
@@ -30,6 +30,9 @@
     <section class="products">
 <div class="container">
   <h1>Our Products</h1>
+<br>
+  <div><label class="searchlabel" for="searchbar">Search: </label>
+    <input id="searchbar" name="searchbar" onkeyup="searchProduct()" placeholder=" ex:(product name)" type="text"></div>
   <div class="product-list">
     <!-- Start of single item-->
     <!-- <div class="product-item">

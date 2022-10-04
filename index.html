@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="index.css" />
     <title>RAGING APE</title>
   </head>
-  <body onload="startUp()">
+  <body onload="startUp()"> <!--Starts slideshow with image and auto change-->
     <header>
       <nav>
         <div class="navbar" id="topnavbar">
@@ -31,30 +31,21 @@
     <main>
       <section>
         <div class="description">
-          <img src="images/ecommercebanner.jpeg">
+          <img src="images/banner.webp">
         </div>
         <p class="desc"><strong>"RAGING-APE"</strong><br><strong>by "APES" for "HUMANS" </strong></p>
       </section>
       <div id="slidetitle"><b>BEST SELLERS</b></div>
       <section id="TOPPICKS">
-        <div>
-          <p class="designshop">
-            SHOP<br />
-            NOW
-          </p>
-        </div>
         <div class="slideshowcontainer">
           <div class="imagecontainer">
             <img class="slideimage" id="img1" />
           </div>
         </div>
-        <div>
-          <p class="designshop">SHOP<br />NOW</p>
-        </div>
       </section>
       <section class="xcolor1">
         <div class="buttoncontainer">
-          <a class="slidebutton" onclick="slideShow(0)"></a>
+          <a class="slidebutton" onclick="slideShow(0)"></a> <!-- Select slideshow image-->
           <a class="slidebutton" onclick="slideShow(1)"></a>
           <a class="slidebutton" onclick="slideShow(2)"></a>
         </div><br>
