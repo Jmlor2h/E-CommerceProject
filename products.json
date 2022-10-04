@@ -1,4 +1,3 @@
-
 {
   "product": [
     {
@@ -150,6 +149,24 @@
       "price": "33.99",
       "imgSrc": "productimages/womenshirt2.png",
       "category": "LONG-SLEEVE"
+    },
+    {
+      "name": "BLUE APE TEE",
+      "price": "25.99",
+      "imgSrc": "images/blue.png",
+      "category": "T-SHIRT"
+    },
+    {
+      "name": "WHITE APE TEE",
+      "price": "25.99",
+      "imgSrc": "images/white.png",
+      "category": "T-SHIRT"
+    },
+    {
+      "name": "BLACK APE TEE",
+      "price": "25.99",
+      "imgSrc": "images/black.png",
+      "category": "T-SHIRT"
     }
   ]
 }
