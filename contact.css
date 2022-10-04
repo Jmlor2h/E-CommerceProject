@@ -3,6 +3,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
+    margin-top: 20vh;
 }
 
 
@@ -64,6 +65,7 @@
 
 .contact form label {
     display:block;
+    padding: 1rem 0;
 }
 
 .contact form p {
@@ -109,9 +111,14 @@
     }
     .contact form button {
         padding: 8px 8px 8px 8px;
+        font-size: 10px;
     }
 
     .contact form input, .contact form textarea {
         padding: .5rem;
+    }
+
+    .contact form label {
+        font-size: 15px;
     }
 }
