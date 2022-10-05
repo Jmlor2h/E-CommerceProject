@@ -23,7 +23,6 @@ function loadJSON(){
                 </div>
                 <div class="product-content">
                     <h3 class="product-name">${product.name}</h3>
-                    <span class="product-category">${product.category}</span>
                     <p class="product-price">${product.price}</p>
                     <button type = "button" class="add-to-cart-btn">
                     <i class= "fa fa-shopping-cart"></i> Add To Cart</button>

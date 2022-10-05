@@ -55,11 +55,11 @@
     transition: 1s;
 }
 
-.product-category{
+.product-name{
     margin: 1rem 0;
     display: inline-block;
     font-weight: 500;;
-    background: rgb(247, 56, 56);
+    background: firebrick;
     color: #fff;
     padding: 5px 15px;
     border-radius: 5px;
