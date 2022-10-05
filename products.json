@@ -1,7 +1,7 @@
 {
   "product": [
     {
-      "name": "LTD EDITION SINGE ENRAGÉ",
+      "name": "SINGE ENRAGÉ",
       "price": "59.99",
       "desc": "Limited Edition Hoodie",
       "imgSrc": "productimages/singenrage.png"
@@ -37,13 +37,13 @@
       "imgSrc": "productimages/whitehoodie.png"
     },
     {
-      "name": "LTD EDITION BLACK TEE",
+      "name": "BLACK TEE",
       "price": "29.99",
       "desc": "Limited Edition Tee",
       "imgSrc": "productimages/blacklogotee.png"
     },
     {
-      "name": "NEW GEN BLACK TEE",
+      "name": "BLACK TEE",
       "price": "25.99",
       "desc": "A Raging Ape v2",
       "imgSrc": "productimages/blacktee.png"
@@ -55,19 +55,19 @@
       "imgSrc": "productimages/bluetee.png"
     },
     {
-      "name": "LTD EDITION NAVY TEE",
+      "name": "NAVY TEE",
       "price": "29.99",
       "desc": "Limited Edition Tee",
       "imgSrc": "productimages/navylogotee.png"
     },
     {
-      "name": "LTD EDITION WHITE TEE",
+      "name": "WHITE TEE",
       "price": "29.99",
       "desc": "Limited Edition Tee",
       "imgSrc": "productimages/whitelogotee.png"
     },
     {
-      "name": "NEW GEN WHITE TEE",
+      "name": "WHITE TEE",
       "price": "25.99",
       "desc": "A Raging Ape v2",
       "imgSrc": "productimages/whitetee.png"
@@ -79,13 +79,13 @@
       "imgSrc": "productimages/redtee.png"
     },
     {
-      "name": "LTD EDITION GRAY SHORTS",
+      "name": "GRAY SHORTS",
       "price": "29.99",
       "desc": "Limited Edition Shorts",
       "imgSrc": "productimages/grayshortslimited.png"
     },
     {
-      "name": "LTD EDITION BLACK SHORTS",
+      "name": "BLACK SHORTS",
       "price": "29.99",
       "desc": "Limited Edition Shorts",
       "imgSrc": "productimages/blackshortslimited.png"
@@ -97,7 +97,7 @@
       "imgSrc": "productimages/grayshorts.png"
     },
     {
-      "name": "NEW GEN BLACK SHORTS",
+      "name": "BLACK SHORTS",
       "price": "25.99",
       "desc": "A Raging Ape v2",
       "imgSrc": "productimages/blackshorts.png"
@@ -127,13 +127,13 @@
       "imgSrc": "productimages/navysweats.png"
     },
     {
-      "name": "WOMENS OG GRAY SHORTS",
+      "name": "OG GRAY SHORTS",
       "price": "25.99",
       "desc": "A Womens Raging Ape Original",
       "imgSrc": "productimages/womenshorts1.png"
     },
     {
-      "name": "WOMENS OG NAVY SHORTS",
+      "name": "OG NAVY SHORTS",
       "price": "25.99",
       "desc": "A Womens Raging Ape Original",
       "imgSrc": "productimages/womenshorts2.png"
