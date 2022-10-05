@@ -1,5 +1,6 @@
 //* adds & removes responsive class to/from top nav when icon is clicked. */
 function myFunction() {
+    "use strict";
     var x = document.getElementById("topnavbar");
     if (x.className === "navbar") {
       x.className += " responsive";
@@ -23,6 +24,7 @@ function loadJSON(){
                 </div>
                 <div class="product-content">
                     <h3 class="product-name">${product.name}</h3>
+                    <p class="product-desc">${product.desc}</p>
                     <p class="product-price">${product.price}</p>
                     <button type = "button" class="add-to-cart-btn">
                     <i class= "fa fa-shopping-cart"></i> Add To Cart</button>

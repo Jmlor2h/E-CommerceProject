@@ -3,141 +3,169 @@
     {
       "name": "LTD EDITION SINGE ENRAGÉ",
       "price": "59.99",
+      "desc": "Limited Edition Hoodie",
       "imgSrc": "productimages/singenrage.png"
     },
     {
       "name": "OG BLUE HOODIE",
       "price": "49.99",
+      "desc": "A Raging Ape Original",
       "imgSrc": "productimages/bluehoodie.png"
     },
     {
       "name": "OG LIGHTBLUE HOODIE",
       "price": "49.99",
+      "desc": "A Raging Ape Original",
       "imgSrc": "productimages/aquahoodie.png"
     },
     {
       "name": "OG BLACK HOODIE",
       "price": "49.99",
+      "desc": "A Raging Ape Original",
       "imgSrc": "productimages/blackhoodie.png"
     },
     {
       "name": "OG RED HOODIE",
       "price": "49.99",
+      "desc": "A Raging Ape Original",
       "imgSrc": "productimages/redhoodie.png"
     },
     {
       "name": "OG WHITE HOODIE",
       "price": "49.99",
+      "desc": "A Raging Ape Original",
       "imgSrc": "productimages/whitehoodie.png"
     },
     {
       "name": "LTD EDITION BLACK TEE",
       "price": "29.99",
+      "desc": "Limited Edition Tee",
       "imgSrc": "productimages/blacklogotee.png"
     },
     {
       "name": "NEW GEN BLACK TEE",
       "price": "25.99",
+      "desc": "A Raging Ape v2",
       "imgSrc": "productimages/blacktee.png"
     },
     {
       "name": "OG BLUE TEE",
       "price": "25.99",
+      "desc": "A Raging Ape Original",
       "imgSrc": "productimages/bluetee.png"
     },
     {
       "name": "LTD EDITION NAVY TEE",
       "price": "29.99",
+      "desc": "Limited Edition Tee",
       "imgSrc": "productimages/navylogotee.png"
     },
     {
       "name": "LTD EDITION WHITE TEE",
       "price": "29.99",
+      "desc": "Limited Edition Tee",
       "imgSrc": "productimages/whitelogotee.png"
     },
     {
       "name": "NEW GEN WHITE TEE",
       "price": "25.99",
+      "desc": "A Raging Ape v2",
       "imgSrc": "productimages/whitetee.png"
     },
     {
       "name": "OG RED TEE",
       "price": "25.99",
+      "desc": "A Raging Ape Original",
       "imgSrc": "productimages/redtee.png"
     },
     {
       "name": "LTD EDITION GRAY SHORTS",
       "price": "29.99",
+      "desc": "Limited Edition Shorts",
       "imgSrc": "productimages/grayshortslimited.png"
     },
     {
       "name": "LTD EDITION BLACK SHORTS",
       "price": "29.99",
+      "desc": "Limited Edition Shorts",
       "imgSrc": "productimages/blackshortslimited.png"
     },
     {
       "name": "OG GRAY SHORTS",
       "price": "25.99",
+      "desc": "A Raging Ape Original",
       "imgSrc": "productimages/grayshorts.png"
     },
     {
       "name": "NEW GEN BLACK SHORTS",
       "price": "25.99",
+      "desc": "A Raging Ape v2",
       "imgSrc": "productimages/blackshorts.png"
     },
     {
       "name": "OG GRAY SWEATS",
       "price": "33.99",
+      "desc": "A Raging Ape Original",
       "imgSrc": "productimages/graysweats.png"
     },
     {
       "name": "OG BLACK SWEATS",
       "price": "33.99",
+      "desc": "A Raging Ape Original",
       "imgSrc": "productimages/blacksweatschamp.png"
     },
     {
       "name": "OG DARK-GRAY SWEATS",
       "price": "33.99",
+      "desc": "A Raging Ape Original",
       "imgSrc": "productimages/darkgraysweats.png"
     },
     {
       "name": "OG NAVY SWEATS",
       "price": "33.99",
+      "desc": "A Raging Ape Original",
       "imgSrc": "productimages/navysweats.png"
     },
     {
-      "name": "WOMENS GRAY SHORTS",
+      "name": "WOMENS OG GRAY SHORTS",
       "price": "25.99",
+      "desc": "A Womens Raging Ape Original",
       "imgSrc": "productimages/womenshorts1.png"
     },
     {
-      "name": "WOMENS NAVY SHORTS",
+      "name": "WOMENS OG NAVY SHORTS",
       "price": "25.99",
+      "desc": "A Womens Raging Ape Original",
       "imgSrc": "productimages/womenshorts2.png"
     },
     {
-      "name": "WOMENS TURQUOISE SHIRT",
+      "name": "OG TURQUOISE SHIRT",
       "price": "33.99",
+      "desc": "A Womens Raging Ape Original",
       "imgSrc": "productimages/womenshirt.png"
     },
     {
-      "name": "WOMENS GRAY SHIRT",
+      "name": "OG GRAY SHIRT",
       "price": "33.99",
+      "desc": "A Womens Raging Ape Original",
       "imgSrc": "productimages/womenshirt2.png"
     },
     {
       "name": "BLUE APE TEE",
       "price": "25.99",
+      "desc": "Special Edition Tee",
       "imgSrc": "images/blue.png"
     },
     {
       "name": "WHITE APE TEE",
       "price": "25.99",
+      "desc": "Special Edition Tee",
       "imgSrc": "images/white.png"
     },
     {
       "name": "BLACK APE TEE",
       "price": "25.99",
+      "desc": "Special Edition Tee",
       "imgSrc": "images/black.png"
     }
   ]

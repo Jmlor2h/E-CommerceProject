@@ -8,8 +8,6 @@ main {
 
 
 .description img {
-  border-radius: 10px;
-  justify-self: center;
   width: 95%;
   box-shadow: 0 0 2vw 0 gray;
   border-radius: 10px;
