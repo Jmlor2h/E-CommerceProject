@@ -3,6 +3,12 @@
     font-size: 2vw;
     
 }
+
+.container h1 {
+    letter-spacing: 3px;
+    font-size: 3rem;
+
+}
 .products {
     padding: 6rem 0;
 }
@@ -17,13 +23,16 @@
 }
 
 .product-item{
-    margin: 1rem 0;
+    margin: 1rem 1rem 1rem 1rem;
+    background-color: #FFFF;
+    padding: 1rem 0;
 }
 .product-img{
     padding: 3rem 0;
     height: 350px;
     overflow: hidden;
     position: relative;
+    opacity: 80%;
 }
 
 .product-img img{

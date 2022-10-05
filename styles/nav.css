@@ -29,6 +29,7 @@ font-family: 'Bebas Neue', sans-serif;
     float: left;
     text-decoration: none;
     border: solid 0;
+    letter-spacing: 2px;
 }
 
 .navbar a {
@@ -41,6 +42,7 @@ font-family: 'Bebas Neue', sans-serif;
     border-radius: 2vw;
     margin: 1vw;
     text-decoration: none;
+    letter-spacing: 1px;
 }
 
 .navbar a:hover {

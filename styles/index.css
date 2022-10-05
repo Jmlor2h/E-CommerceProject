@@ -22,13 +22,16 @@ main {
   font-size: 3.5vw;
   color: gray;
   margin-top: -15vw;
+  letter-spacing: 5px;
 }
 
 .aboutus {
     font-size: 2vw;
+    letter-spacing: 2.2px;
 }
 .aboutus1 {
   font-size: 3vw;
+  letter-spacing: 3px;
 }
 .aboutbg {
   padding: 2vw 2vw 2vw 2vw;
@@ -40,6 +43,7 @@ main {
   padding: 1vw 1vw 1vw 1vw;
   border-right: 10px solid black;
   width: 40%;
+  letter-spacing: 2px;
 }
 .socialbg {
   display: flex;
@@ -66,6 +70,7 @@ main {
     width: 70%;
     padding: 2vw 2vw 2vw 2vw;
     border-right: 10px solid black;
+    letter-spacing: 2px;
 }
 
 .xcolor1 {
@@ -81,6 +86,7 @@ main {
     border-right: 10px solid black;
     border-top: 10px solid black;
     padding: 2vw 2vw 2vw 2vw;
+    letter-spacing: 4px;
 }
 
 .slideimage {
@@ -134,6 +140,7 @@ main {
 
 .FEATUREDLINE {
     font-size: 3vw;
+    letter-spacing: 2px;
 }
 
 .featuredimg {
