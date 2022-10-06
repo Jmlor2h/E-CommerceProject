@@ -35,4 +35,4 @@ showImage++;
 if (showImage == images.length){ // showImage starts with 0 and increments by 1, once it passes 2 it resets to 0, 2 is the last number of the array
   showImage = 0
 };
-}, 5000)
+}, 2500)
