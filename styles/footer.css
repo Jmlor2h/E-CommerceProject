@@ -9,11 +9,12 @@ footer {
   padding: .5vw .3vw;
   background-color: #F7F7F7;
   white-space: nowrap;
-  font-size: 1vw;
+  font-size: 12px;
+  width: 100%;
 }
 
 .footertitle {
-  font-size: 1.8vw;
+  font-size: 18px;
   letter-spacing: 1px;
   color: red;
 }
@@ -47,11 +48,22 @@ footer {
 
 @media screen and (max-width:600px) {
   footer {
-    font-size: 1.5vh;
+    font-size: 12px;
   }
 
   .footertitle {
-    font-size: 2vh;
+    font-size: 18px;
+  }
+  
+}
+
+@media screen and (min-width: 1200px) {
+  footer {
+    font-size: 16px;
+  }
+
+  .footertitle {
+    font-size: 30px;
   }
   
 }

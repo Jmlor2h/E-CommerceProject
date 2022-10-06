@@ -21,6 +21,7 @@
                 <a href="index.html">Home</a>
                 <a href="products.html" class="active">Shop</a>
                 <a href="contact.html">Contact</a>
+                <a class="shopcart"><i class="fa fa-shopping-cart icon-4x"></i></a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                   <i class="fa fa-bars"></i>
                 </a>
@@ -28,11 +29,58 @@
       </nav>
     </header>
     <section class="products">
+      <h1>Our Products</h1>
 <div class="container">
-  <h1>Our Products</h1>
 <br>
-  <div><label class="searchlabel" for="searchbar">Search: </label>
-    <input id="searchbar" name="searchbar" onkeyup="searchProduct()" placeholder=" Ex:(product name)" type="text"></div>
+<section class="sideoptions">
+  <div>
+    <ul>
+    <li><label class="searchlabel" for="searchbar">Search by name </label></li>
+    <li><input id="searchbar" name="searchbar" onkeyup="searchProduct()" placeholder=" Ex:(product name)" type="text"></li><br>
+  </ul></div>
+    <div class="sect">
+      <p class="opt1">Sort by</p>
+      <ul>
+        <li>New Arrivals</li>
+        <li>Most Popular</li>
+        <li>Lowest Price</li>
+        <li>Highest Price</li>
+        <li></li>
+      </ul>
+    </div><br>
+    <div class="sect1">
+      <p class="opt1">Products</p>
+      <ul>
+      <li>Shirts</li>
+      <li>Hoodies</li>
+      <li>Shorts</li>
+      <li>Sweatpants</li>
+      <li></li>
+    </ul>
+  </div>
+  <br>
+  <div class="sect2">
+    <p class="opt1">Color</p>
+    <ul>
+      <li>Pink</li>
+      <li>Blue</li>
+      <li>Gray</li>
+      <li>Red</li>
+      <li>Green</li>
+    </ul>
+  </div>
+  <br>
+  <div class="sect3">
+    <p class="opt1">Size</p>
+    <ul>
+      <li>XLarge</li>
+      <li>Large</li>
+      <li>Medium</li>
+      <li>Small</li>
+      <li>XSmall</li>
+    </ul>
+  </div>
+  </section>
   <div class="product-list">
     <!-- Start of single item-->
     <!-- <div class="product-item">

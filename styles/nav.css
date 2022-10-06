@@ -45,6 +45,16 @@ font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 1px;
 }
 
+.navbar .shopcart {
+  float: right;
+  border: none;
+  font-size: 1.5vw;
+}
+
+.navbar .shopcart:hover{
+  cursor: pointer;
+}
+
 .navbar a:hover {
     background-color: #393E46;
     color: #929AAB;
@@ -67,7 +77,7 @@ font-family: 'Bebas Neue', sans-serif;
 
 
     /* when screen is smaller than 600px, removes all but home link. shows burger menu to open up a responsive nav menu. */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 989px) {
     .navbar a:not(:nth-child(1)) {display: none;}
     .navbar a.icon {
       float: right;

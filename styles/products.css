@@ -1,12 +1,19 @@
 .container {
     text-align: center;
     font-size: 2vw;
+    display: flex;
+    flex-direction: row;
     
 }
 
-.container h1 {
+.product-list {
+    width: 90%;
+    float: right;
+}
+.products h1 {
     letter-spacing: 3px;
     font-size: 3rem;
+    text-align: center;
 
 }
 .products {
@@ -82,19 +89,53 @@
 }
 
 .searchlabel {
-    font-size: 1.2vw;
+    font-size: 25px;
 }
 
 #searchbar {
-    padding: .5rem 0;
-    border-radius: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    padding: .5rem;
+    width: auto;
 }
 
+.sideoptions {
+    height: 100%;
+    float: left;
+    width: 20%;
+    text-align: start;
+    margin-left: 15px;
+    display: none;
+}
+.opt1 {
+    font-size: 25px;
+    color: firebrick;
+}
+
+
+.sideoptions ul li:hover {
+    color: firebrick;
+    cursor: pointer;
+}
+
+.sideoptions ul li {
+    font-size: 20px;
+    list-style: none;
+    width: 15%;
+    white-space: nowrap;
+}
+@media screen and (min-width: 0px) {
+    .product-list {
+        margin-left: 20px;
+    }
+    
+}
 @media screen and (min-width: 680px){
     .product-list{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2px;
+        width: 100%;
     }
 }
 
@@ -103,6 +144,9 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         column-gap: 2px;
+    }
+    .sideoptions {
+        display: block;
     }
 }
 
