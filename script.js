@@ -8,7 +8,7 @@ function myFunction() {
   }
 }
 
-let images = [
+let images = [ //images array to be used for slideshow.
   {
       imageUrl:`productimages/bluehoodie.png`
   },

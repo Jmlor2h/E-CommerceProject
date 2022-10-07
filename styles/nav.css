@@ -93,7 +93,7 @@ font-family: 'Bebas Neue', sans-serif;
     }
   }
   /* responsiveness, displays nav bar vertically instead of horizontally.*/
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 989px) {
     .navbar.responsive {position: relative;}
     .navbar.responsive a.icon {
       position: absolute;

@@ -13,6 +13,7 @@
     />
     <title>"RAGING APE"</title>
 </head>
+<!-- end of head -->
 <body onload="loadJSON()"> <!--Loads Json/Products informaton & data-->
     <header>
         <nav>
@@ -22,7 +23,7 @@
                 <a href="products.html" class="active">Shop</a>
                 <a href="contact.html">Contact</a>
                 <a class="shopcart"><i class="fa fa-shopping-cart icon-4x"></i></a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">  <!-- adds and removes responsive class from navbar class when clicked-->
                   <i class="fa fa-bars"></i>
                 </a>
               </div>
@@ -32,11 +33,11 @@
       <h1>Our Products</h1>
 <div class="container">
 <br>
-<section class="sideoptions">
+<section class="sideoptions"> <!--Side Bar-->>
   <div>
     <ul>
     <li><label class="searchlabel" for="searchbar">Search by name </label></li>
-    <li><input id="searchbar" name="searchbar" onkeyup="searchProduct()" placeholder=" Ex:(product name)" type="text"></li><br>
+    <li><input id="searchbar" name="searchbar" onkeyup="searchProduct()" placeholder=" Ex:(product name)" type="text"></li><br> <!--Search Bar-->
   </ul></div>
     <div class="sect">
       <p class="opt1">Sort by</p>
@@ -81,7 +82,7 @@
     </ul>
   </div>
   </section>
-  <div class="product-list">
+  <div class="product-list"> <!--Product list class for JSON pulling-->
     <!-- Start of single item-->
     <!-- <div class="product-item">
       <div class="product-img">
@@ -113,6 +114,7 @@
 
 
     <div class="grow"></div>
+    <!-- Start Of Footer -->
     <footer>
       <section class="footerhelp">
        <div class="footertitle">HELP</div>

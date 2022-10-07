@@ -1,22 +1,22 @@
 //* adds & removes responsive class to/from top nav when icon is clicked. */
 function myFunction() {
     "use strict";
-    var x = document.getElementById("topnavbar");
-    if (x.className === "navbar") {
-      x.className += " responsive";
-    } else {
-      x.className = "navbar";
+    var x = document.getElementById("topnavbar"); // Grabs topnavbar ID //
+    if (x.className === "navbar") {  // this is always the class name so it will always work
+      x.className += " responsive"; // adds responsive to class name responsiveness is done in css
+    } else {                       // responsive class will only show up below 989 px
+      x.className = "navbar"; // go back to normal nav bar.
     }
   }
 
 const productList = document.querySelector('.product-list'); // selects .product-list class.
 
 function loadJSON(){
-    fetch('products.json')
-    .then(response => response.json())
+    fetch('products.json') // grabs json data
+    .then(response => response.json()) // sends a response and returns promise (parses data from json)
     .then(data => {
-        let html = '';
-        data.product.forEach(product => {
+        let html = '';  // sets html variable
+        data.product.forEach(product => { // runs for each product array/object.
             html += ` 
             <div class="product-item">
                 <div class="product-img">
